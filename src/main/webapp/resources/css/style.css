@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.rating a {
+    text-decoration: none;
+    font-size: 32px;
+    color: #888;
+}
+.rating:hover a {
+    color: gold;
+}
+.rating a:hover ~ a {
+    color: #888;
+}
